@@ -3,90 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>port folio</title>
 </head>
 <body>
-    <table border="1" cellpadding="5" cellspacing="0">
+    <center>
+        <h2>John Doe's Web Portfolio</h2>
+        <i>Showcasing HTML skills using Tables</i>
+        <br>
+        <a href="#about">About</a>
+        &nbsp;
+        <a href="#skills">Skills</a>
+        &nbsp;
+        <a href="#projects">Projects</a>
+        &nbsp;
+        <a href="#contact">Contact</a>
+    </center>
+    <hr>
+    <table border="1" cellpadding="6" cellspacing="0" width="100%">
         <tr>
             <td colspan="2">
-                <h2>about me</h2>
-                <p>yuiop[0jgfblakndbmajsgvduawjdl</p>
-                <img src="" alt="hwbfwe">
-            </td>
+                <h2 id="about">About me</h2>
+                <p>
+                    Hello! I'm <b>John Doe,</b>a passionate web developer.I love building semantic,accesible,and responsive websites using core web technologies.
+                    <br>
+                    I specialize in frontend development,especially HTML,CSS,and Javascript.
+                </p>
+                <img src="" alt="John Doe">
+            </td> 
         </tr>
         <tr>
             <td>
-                <h2>skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul>
-                    <li>html</li>
-                    <li>css</li>
+                    <li>HTML5/CSS3</li>
+                    <li>Javascript(ES6+)</li>
+                    <li>Responsive Design</li>
+                    <li>Git & Github</li>
                 </ul>
-                <h2>skill levels</h2>
-                <table border="1" cellpadding="3" cellspacing="1">
+                <b>Skill Levels</b>
+                <table border="1">
                     <tr>
                         <td>skill</td>
                         <td>level</td>
                     </tr>
                     <tr>
-                        <td>html</td>
-                        <td>expert</td>
+                        <td>HTML</td>
+                        <td>Expert</td>
                     </tr>
                     <tr>
-                        <td>css</td>
-                        <td>advanced</td>
+                        <td>CSS</td>
+                        <td>Advanced</td>
                     </tr>
                     <tr>
-                        <td>javascript</td>
-                        <td>intermediate</td>
+                        <td>Javascript</td>
+                        <td>Intermediate</td>
                     </tr>
                 </table>
             </td>
             <td>
-                <h2>projects</h2>
+                <h2 id="projects">projects</h2>
                 <ol>
-                    <li><b>Portfolio website-</b></li>My personal portfolio built using pure html and css
-                    <li>todo app</li>
-                    <li>weather</li>
+                    <li><b>Portfolio Website-</b>My personal portfolio built using pure Html and CSS.</li>
+                    <li><b>Todo App-</b>A task managment tool with vanilla Javascript.</li>
+                    <li><b>Weather App-</b>A real-time weather dashboard using APIs.</li>
                 </ol>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-               <h2>contact me</h2>
-               <fieldset>
-                <legend>contact form</legend>
-                <form action="./submit.html">
-                    <label for="name">Full Name:</label>
-                    <input type="text" name="name" id="name">
-                    <br>
-                    Gender:
-                    <label for="female">Female</label>
-                    <input type="radio" name="gender" id="female">
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="male">
-                    <br>
-                    <label for="country">Country:</label>
-                    <select id="country" name="country">
-                        <option value="select">---select---</option>
-                         <option value="USA">USA</option>
-                         <option value="INDIA">INDIA</option>
-                    </select>
-                    <br>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message">type here</textarea>
-                </form>
-                <input type="submit">
-                <input type="reset">
-               </fieldset>
+                <img src="" alt="screenshot">
+                <br>
+                <img src="" alt="Project Preview">
             </td>
         </tr>
         <tr align="center">
             <td colspan="2">
-                tdytvj
+                <h2 id="contact">Contact me</h2>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required @gmail>
+                    <br>
+                    Gender:
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <br>
+                    <label for="webdesign" for="SEO">Services Intrested:</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Web design</label>
+                      &nbsp;
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">SEO</label>
+                    <br>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="select">---select---</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="India">India</option>
+                    </select>
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                </fieldset>
+            </td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">
+                <b>Last updated:</b>August 13 ,2025
                 <br>
-                <i>yrfdybjnyfrtft</i>
-                <br>
-                <a href="">dfxrdfyj@gmail.com</a>
+                <i>Created by John Doe<br>
+                Email:<a href="">john@example.com</a><br>
+                website:<a href="">example.com</a> </i><br>
+                @2025 John Doe.All rights reserved.
             </td>
         </tr>
     </table>
